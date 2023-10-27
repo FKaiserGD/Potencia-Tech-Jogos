@@ -1,5 +1,8 @@
-
-# Potencia Tech - Desenvolvimento de Jogos
+<h1>
+    <a href="https://www.dio.me/">
+     <img align="center" width="40px" src="https://github.com/FKaiserGD/Potencia-Tech-Jogos/blob/main/logo-potencia-tech.png?raw=true"></a>
+    <span>Potencia Tech - Desenvolvimento de Jogos</span>
+</h1>
 
 Meu repositório para o bootcamp da Dio.me em parceria com o Ifood: Potencia Tech - Desenvolvimento de Jogos.
 
