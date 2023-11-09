@@ -5,53 +5,22 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #f6f8fc;
+}
+
 .content {
+    width: 100vw;
+    height: 100vh;
     padding: 1rem;
+    background-color: #fff;
 }
 
-.pokemons {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.pokemon {
-    display: flex;
-    flex-direction: column;
-    margin: 0.5rem;
-    padding: 2rem 1rem;
-    background-color: #49deb0;
-    color: white;
-    border-radius: 1rem;
-}
-
-.pokemon img {
-    border-radius: none;
-    max-width: 90%;
-    height: 100px;
-}
-
-.number {
-    color: #46cbab;
-    text-align: right;
-    opacity: 3;
-}
-
-.types {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-}
-
-.detail {
-    display: flex;
-    flex-direction: row;
-}
-
-.type {
-    background-color: #61e1ca;
-    color: white;
-    padding: 0.5rem;
+@media screen and (min-width: 992px) {
+    .content {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
 }
